@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #1c1c1c;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #e91e63;
+  }
+  
+  /* Header Section */
+  .header {
+    background: #111;
+    padding: 50px 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px; /* Box shape */
+    border: 2px solid #e91e63;
+  }
+  
+  .header-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .header-text span {
+    color: #e91e63;
+  }
+  
+  .header-text p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #ddd;
+  }
+  
+  /* About Section */
+  .about, .services, .portfolio, .contact {
+    padding: 50px 20px;
+    text-align: center;
+    background: #222;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #e91e63;
+  }
+  
+  /* Services Section */
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  /* Portfolio Section */
+  .projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background: #333;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #e91e63;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+  }
+  
